@@ -2,7 +2,7 @@
 
 Even though we write SQL queries in one order, SQL executes them internally in another order.
 
-## Execution Order
+<!-- ## Execution Order
 
 1. FROM
 2. WHERE
@@ -11,7 +11,21 @@ Even though we write SQL queries in one order, SQL executes them internally in a
 5. SELECT
 6. DISTINCT
 7. ORDER BY
-8. LIMIT
+8. LIMIT -->
+
+## Coding Order vs Execution Order
+
+| Coding Order (How We Write) | Execution Order (How SQL Runs) |
+| --------------------------- | ------------------------------ |
+| 1. SELECT                   | 1. FROM                        |
+| 2. DISTINCT                 | 2. WHERE                       |
+| 3. Column Names             | 3. GROUP BY                    |
+| 4. FROM                     | 4. HAVING                      |
+| 5. WHERE                    | 5. SELECT                      |
+| 6. GROUP BY                 | 6. DISTINCT                    |
+| 7. HAVING                   | 7. ORDER BY                    |
+| 8. ORDER BY                 | 8. LIMIT                       |
+| 9. LIMIT                    |                                |
 
 ---
 
