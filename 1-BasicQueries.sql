@@ -1,5 +1,17 @@
 # After executing the 'init-mysql-mydatabase.sql' dataset
 
+# BASIC QUERIES includes;
+-- SELECT, DISTINCT, FROM, WHERE
+-- AND, OR, NOT
+-- AS (Alias)
+-- ORDER BY
+-- LIMIT
+-- GROUP BY
+-- HAVING
+-- IS NULL, IS NOT NULL
+-- Aggregate Functions
+-- COUNT(), SUM(), AVG(), MIN(), MAX()
+
 USE mydatabase;
 SHOW TABLES;
 

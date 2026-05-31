@@ -1,3 +1,10 @@
+# DDL stands for DATA DEFINITION LANGUAGE
+-- CREATE
+-- ALTER
+-- DROP
+-- TRUNCATE
+-- RENAME
+
 USE mydatabase;
 
 /* Create a new table called persons
