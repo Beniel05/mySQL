@@ -2,17 +2,6 @@
 
 Even though we write SQL queries in one order, SQL executes them internally in another order.
 
-## Execution Order
-
-1. FROM
-2. WHERE
-3. GROUP BY
-4. HAVING
-5. SELECT
-6. DISTINCT
-7. ORDER BY
-8. LIMIT
-
 ## Coding Order vs Execution Order
 
 | Coding Order (How We Write) | Execution Order (How SQL Runs) |
@@ -40,6 +29,19 @@ HAVING COUNT(*) > 2
 ORDER BY department
 LIMIT 5;
 ```
+
+---
+
+## Execution Order
+
+1. FROM
+2. WHERE
+3. GROUP BY
+4. HAVING
+5. SELECT
+6. DISTINCT
+7. ORDER BY
+8. LIMIT
 
 ---
 
