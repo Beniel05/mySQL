@@ -15,7 +15,12 @@ These notes are based on practice, learning, and revision while following SQL co
 4 | [DML Commands](04_DML_Commands.md)  
 5 | [DML Quick Look](05_DML_QuickLook.md)  
 6 | [WHERE Conditions](06_WHERE_Conditions.md)  
+7 | [BASIC JOINS](07_Basic_JOINS.md)  
+8 | [FULL JOIN IN MySQL](08_FULL_JOIN_inMySql.md)  
+9 | [ADVANCED JOINS](09_Advanced_Joins.md)  
+10 | [Selecting Columns After Joins](10_Selecting_Columns_After_Joins.md)  
 
+| [REGULAR EXPRESSIONS](REGULAR_EXPRESSIONS.md)
 ---
 
 # SQL Practice Files
@@ -24,6 +29,8 @@ These notes are based on practice, learning, and revision while following SQL co
 2 | [DDL SQL](../2-DDL.sql)  
 3 | [DML SQL](../3-DML.sql)  
 4 | [WHERE Conditional Operators SQL](../4-WHEREConditionalOperators.sql)  
+5 | [Basic SQL JOINS](../5_BasicJOINS.sql)  
+6 | [Advanced SQL JOINS](../6_AdvancedJOINS.sql)  
 
 ---
 
